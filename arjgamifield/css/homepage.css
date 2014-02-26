@@ -1,0 +1,253 @@
+body
+{
+    min-height:100%;
+    height:100%;
+    padding:0;
+    margin:0 0;  
+}
+@font-face
+{
+    font-family: title;
+    src:url("../fonts/Quasari.ttf");
+}
+@font-face
+{
+    font-family: login_container;
+    src:url("../fonts/FontleroyBrownNF.ttf");
+}
+@font-face
+{
+    font-family: footer;
+    src:url("../fonts/Gutcruncher.ttf");
+}
+@font-face
+{
+    font-family: registration_label;
+    src:url("../fonts/Marlboro.ttf");
+}
+#header
+{
+    background:black;
+    height:70px;
+    color:white;
+    line-height:70px;
+    font-size:55px;
+    font-family:title;
+}
+#gami
+{
+    text-decoration:none;
+    color:white;
+}
+#title
+{
+    margin-left:10px;   
+}
+#login_website
+{
+    height:60px;
+    width:450px;
+    text-align:center;
+    margin:auto;
+    border:2px solid black;
+    border-radius:8px;
+    border-width: 3px;
+    font-size:50px;
+}
+#login_website:hover
+{
+    background: #f0f0f0;
+    cursor: pointer;
+     
+}
+.login
+{
+    margin-top:0px;
+    font-family:login_container;
+    margin-left:15px;
+}   
+#login_facebook
+{
+    height:60px;
+    width:450px;            
+    margin:auto;
+    border:2px solid black;
+    border-radius:8px;
+    border-width: 3px;
+    font-size:50px;                
+}
+#login_facebook:hover
+{
+    background: #f0f0f0;
+    cursor: pointer;
+}
+#fb_logo
+{
+    margin-top:-100px;
+    margin-left:390px;
+}
+#login_google
+{
+    height:60px;
+    width:450px;
+    margin:auto;
+    border:2px solid black;
+    border-radius:8px;
+    border-width: 3px;
+    font-size:50px;               
+}
+#login_google:hover
+{
+    background: #f0f0f0;
+    cursor: pointer;
+}
+#google_logo
+{
+    margin-top:-104px;
+    margin-left:384px;
+}
+#signup
+{
+    margin-top:0px;
+    margin-left:1130px;
+    font-size:50px;
+    font-family: login_container;
+    color:skyblue;
+    cursor:pointer;
+}
+#register_label
+{
+    font-size: 40px;
+    color:grey;
+}
+#user_register
+{
+    margin-left:700px;
+    margin-top:-325px;
+    width:450px;
+    border:3px solid black;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 8px;
+    position:absolute;
+    overflow: hidden;
+}
+#user_login
+{
+    margin-left:700px;
+    margin-top:-265px;
+    width:450px;
+    border:3px solid black;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 8px;
+    position:absolute;
+    overflow: hidden;
+}
+.user_label
+{
+    font-family: registration_label ;
+    font-size:35px;
+}
+.user_text
+{
+    margin-left:40px;
+    border:1px double #DDD;
+    font-size:25px;
+    font-family:registration_label;
+    border-radius:5px;
+    box-shadow: 0 0 5px #333;
+    color:#666;
+    height:30px;
+    width:220px;
+    position:relative;
+    overflow:hidden;
+}
+.pass_label
+{
+    font-family: registration_label ;
+    font-size:30px;
+}
+.pass_text
+{
+    margin-left:113px;
+    border:1px double #DDD;
+    border-radius:5px;
+    box-shadow: 0 0 5px #333;
+    color:#666;
+    height:30px;
+    width:220px;
+    font-size:25px;
+    font-family:registration_label;
+    position:relative;
+    padding:0px;
+}
+#email
+{
+    margin-left:140px;
+    border:1px double #DDD;
+    border-radius:5px;
+    box-shadow: 0 0 5px #333;
+    color:#666;
+    height:30px;
+    width:220px;
+    font-size:25px;
+    font-family:registration_label;
+    padding:0px;
+}
+#confirm_pass_label
+{
+    font-family: registration_label ;
+    font-size:30px;
+}
+#confirm_pass_text
+{
+    margin-left:20px;
+    border:1px double #DDD;
+    border-radius:5px;
+    box-shadow: 0 0 5px #333;
+    color:#666;
+    height:30px;
+    width:220px;
+    font-size:25px;
+    font-family:registration_label;
+    padding:0px;
+}
+#submit
+{
+    font-size:28px;
+    border:1px double white;
+    border-radius:5px;
+    box-shadow:2px 2px 7px grey; 
+    background:grey;
+    font-family:Times New Roman;
+    color:aliceblue;
+}
+#submit_login
+{
+    font-size:28px;
+    border:1px double white;
+    border-radius:5px;
+    box-shadow:2px 2px 7px grey; 
+    background:grey;
+    font-family:Times New Roman;
+    color:aliceblue;
+}
+#forgot_password
+{
+    font-size: 20px;
+    text-decoration: none;
+    color:red;
+    cursor:pointer;
+}
+#footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20px;
+    background:lightgray;
+    text-align:center;
+    font-family:footer;   
+}
+        
