@@ -5,7 +5,6 @@
 		$gid = $_POST['user_id'];
 		$email = $_POST['email'];
 		$pwd = $_POST['password_register'];
-		//echo $gid.$email.$pwd;
 		$query = "INSERT INTO users values('NULL','$gid','$email','$pwd')";
 		executeQuery($query);
 		echo "Success";
